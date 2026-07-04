@@ -1,17 +1,8 @@
 {
   "name": "dostai-backend",
   "version": "1.0.0",
-  "description": "Backend server for DostAI chatbot (uses Groq's free API)",
-  "main": "server.js",
-  "type": "commonjs",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
-  },
+  "description": "DostAI backend running on Vercel Serverless Functions (uses Groq's free API)",
   "dependencies": {
-    "express": "^4.19.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
     "openai": "^4.52.0"
   }
 }
